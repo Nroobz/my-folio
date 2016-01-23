@@ -1,4 +1,13 @@
 /* fonts */
+
+h1, h2, h3, a {
+    font-family: 'Playfar Display', serif;
+}
+
+p, li {
+    font-family: 'Oswald', sans-serif;
+}
+
 a {
     color: #f2e;
     transition: color .2s ease-in-out;
@@ -99,9 +108,9 @@ h1 {
 }
 
 .showcase figcaption {
-    position: absolute;
+    position: flex;
     top: 20%;
-    right: 19%;
+    right: 9%;
     padding: 10%;
     background: #000;
     background: rgba(0,0,0,.5);
