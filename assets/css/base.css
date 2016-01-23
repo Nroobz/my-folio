@@ -1,0 +1,166 @@
+/* fonts */
+a {
+    color: #f2e;
+    transition: color .2s ease-in-out;
+}
+
+a:hover {
+    color: #fe2;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 200%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .info h2 {
+        font-size: 100%;
+    }
+}
+
+/* gradient splitter */
+.xx {
+    height: 2px;
+    background: linear-gradient(to right,#f0f,#0ff,#ff0);
+}
+
+/* master */
+.wrap {
+    height: 100%;
+}
+
+/* nav */
+.navbar,.navbar-default,.navbar-fixed-top {
+    border: 0;
+    box-shadow: 0 1px 20px rgba(0,0,0,.3);
+    padding-bottom: 1%;
+}
+
+.navi {
+    background-color: #232323;
+}
+
+.navbar-header {
+    display: inline-block;
+}
+
+.navbar-brand img {
+    padding-top: 20%;
+    max-width: 30px;
+}
+
+.navbar li {
+    padding-top: 3%;
+    display: inline-block;
+    font-size: 150%;
+}
+
+/* hero page as jumbotron */
+.jumbotron {
+    margin: 0;
+    padding-top: 20%;
+    color: #fee;
+    background-color: #232323;
+}
+
+.jumbotron p {
+    margin-bottom: 20%;
+}
+
+.hero p {
+    display: inline-block;
+}
+
+/* showcase section */
+.sectionTwo {
+    margin-bottom: 5%;
+}
+
+.container-fluid {
+    background-color: #232323;
+    color: #fee;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+/*
+.col-xs-6 {
+  border: 1px solid white;
+  padding: 0;
+}*/
+.showcase {
+    position: relative;
+}
+
+.showcase figure {
+    position: relative;
+}
+
+.showcase figcaption {
+    position: absolute;
+    top: 20%;
+    right: 19%;
+    padding: 10%;
+    background: #000;
+    background: rgba(0,0,0,.5);
+}
+
+@media screen and (max-width: 768px) {
+    .showcase figcaption {
+        top: 20%;
+        right: 13%;
+    }
+}
+
+/* text hover effects */
+.showcase figcaption {
+    transition: opacity .5s ease-in-out;
+    opacity: 0;
+}
+
+.showcase:hover figcaption {
+    opacity: 1;
+}
+
+.showcase p:before {
+    content: 'Roles: ';
+}
+
+.showcase img {
+    max-width: 100%;
+}
+
+/* image effect for showcase */
+.showcase img {
+    opacity: 1;
+}
+
+.showcase:hover img {
+    transition: opacity .5s ease-in-out;
+    opacity: .75;
+}
+
+/* info */
+.info {
+    background-color: #232323;
+    color: #eee;
+}
+
+.info .row {
+    padding: 0 10%;
+}
+
+.info .col-xs-6 {
+    padding: 0 5%;
+}
+
+.myself {
+    max-width: 100%;
+}
+
+/* footer */
+footer {
+    color: #eee;
+}
